@@ -1,11 +1,11 @@
 # Week 7: MERN Stack Deployment Assignment
 This project demonstrates deployment of a MERN backend to Render and frontend to Vercel. It also includes CI/CD automation using GitHub Actions.
 
-## í´— Live URLs
-- **Backend**: https://your-backend-url.onrender.com
+## ï¿½ï¿½ï¿½ Live URLs
+- **Backend**: https://mern-backend-9479.onrender.com
 - **Frontend**: https://your-frontend-url.vercel.app
 
-## í³¸ Screenshots
+## ï¿½ï¿½ï¿½ Screenshots
 
 ## âš™ï¸ Local Setup Instructions
 ```bash
@@ -15,7 +15,7 @@ npm install
 npm start
 ```
 
-## í·° Tech Stack
+## ï¿½ï¿½ï¿½ Tech Stack
 - Node.js
 - Express.js
 - Render (Backend hosting)
