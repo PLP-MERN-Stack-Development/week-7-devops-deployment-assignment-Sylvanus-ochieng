@@ -1,3 +1,19 @@
+const express = require('express');
+const path = require('path');
+const app = express();
+
+// Serve static files from client/dist
+app.use(express.static(path.join(__dirname, 'client', 'dist')));
+
+// Fallback route to index.html for SPA
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'client', 'dist', 'index.html'));
+});
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on http://localhost:${PORT}`);
+});
 ﻿const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3000;

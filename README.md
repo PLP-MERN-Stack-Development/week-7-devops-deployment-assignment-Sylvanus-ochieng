@@ -3,9 +3,12 @@ This project demonstrates deployment of a MERN backend to Render and frontend to
 
 ## ��� Live URLs
 - **Backend**: https://mern-backend-9479.onrender.com
-- **Frontend**: https://your-frontend-url.vercel.app
+- **Frontend**:https://week-7-devops-deployment-assignment-bice.vercel.app
 
 ## ��� Screenshots
+
+
+![alt text](image.png)
 
 ## ⚙️ Local Setup Instructions
 ```bash
